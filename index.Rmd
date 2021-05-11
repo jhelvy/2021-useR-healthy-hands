@@ -59,7 +59,7 @@ meta() %>%
     description = rmarkdown::metadata$title,
     generator = "xaringan and remark.js"
   ) %>%
-  meta_name("github-repo" = "jhelvy/2021-useR-health-hands") %>%
+  meta_name("github-repo" = "jhelvy/2021-useR-healthy-hands") %>%
   meta_social(
     title = rmarkdown::metadata$title,
     url = "https://jhelvy.com",
@@ -84,7 +84,7 @@ layout: true
 
 <div class="footer-small">
 <span>
-https://github.com/jhelvy/2021-useR-health-hands
+https://github.com/jhelvy/2021-useR-healthy-hands
 </span>
 </div>
 
@@ -93,7 +93,7 @@ https://github.com/jhelvy/2021-useR-health-hands
 name: title-slide
 class: inverse, middle
 
-# Healthier ❤️ & Happier 😄 Hands 🙌 
+# Healthier ❤️ & Happier 😄 Hands 🙌
 
 .leftcol70[
 ## Software and Hardware Solutions for More Ergonomic Typing
@@ -121,7 +121,7 @@ class: inverse
 
 # .center[.font150[Thanks!]]
 
-### Slides: https://jhelvy.github.io/2021-useR-health-hands
+### Slides: https://jhelvy.github.io/2021-useR-healthy-hands
 
 .footer-large[
 .right[
