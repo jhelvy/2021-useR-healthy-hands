@@ -111,7 +111,68 @@ class: inverse, middle
 
 ---
 
-Content placeholder
+I type a lot
+
+[chart on typing]
+
+---
+
+class: inverse, middle, center
+
+# Software & Hardware
+
+---
+
+class: inverse, middle, center
+
+# .orange[Software] & Hardware
+
+---
+
+Learn shortcuts
+
+---
+
+Use a text expander
+
+---
+
+Remap your keyboard
+
+---
+
+Use layers
+
+Navigation with layers
+
+---
+
+Learn a new layout?
+(maybe not)
+
+---
+
+class: inverse, middle, center
+
+# Software & .orange[Hardware]
+
+---
+
+Use a timer
+
+---
+
+Use a split keyboard
+
+(learn to touch type)
+
+---
+
+Use a programmable split keyboard
+
+---
+
+Use a mechanical split keyboard
 
 ---
 
