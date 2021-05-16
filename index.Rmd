@@ -152,6 +152,12 @@ Learn a new layout?
 
 ---
 
+More important to learn at least _a_ layout
+
+(learn to touch type)
+
+---
+
 class: inverse, middle, center
 
 # Software & .orange[Hardware]
@@ -164,15 +170,15 @@ Use a timer
 
 Use a split keyboard
 
-(learn to touch type)
+(inexpensive first)
 
 ---
 
-Use a programmable split keyboard
+Use a split keyboard _that has thumb keys_
 
 ---
 
-Use a mechanical split keyboard
+Use a split keyboard _that is programmable_
 
 ---
 
