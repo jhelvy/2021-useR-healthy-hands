@@ -111,9 +111,20 @@ class: inverse, middle
 
 ---
 
-I type a lot
+class: center, middle
+background-color: #fff
 
-[chart on typing]
+## **Last year I typed 7.5 million key strokes**
+
+<center>
+<img src="images/monthlyKeys.png" width=700>
+</center>
+
+???
+
+I'm an engineering professor, and last year I typed 7.5 million key strokes. 
+
+That's about 600,000 a month
 
 ---
 
