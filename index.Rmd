@@ -134,6 +134,26 @@ class: inverse, middle, center
 
 ---
 
+class: middle, center
+
+# Disclaimer
+
+## This talk is not for Vim / Emacs users
+
+.leftcol[
+<center>
+<img src="images/emacs.svg" width=400>
+</center>
+]
+
+.rightcol[
+<center>
+<img src="images/vim.svg" width=400>
+</center>
+]
+
+---
+
 class: inverse, middle, center
 
 # .orange[Software] & Hardware
