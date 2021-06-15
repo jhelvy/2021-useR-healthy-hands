@@ -10,7 +10,8 @@ output:
       - css/lexis.css
       - css/lexis-fonts.css
     lib_dir: libs
-    nature:
+    nature: 
+      beforeInit: "https://platform.twitter.com/widgets.js"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -52,6 +53,7 @@ xaringanExtra::use_extra_styles(
   hover_code_line = TRUE,
   mute_unhighlighted_code = FALSE
 )
+xaringanExtra::use_freezeframe(responsive = FALSE)
 
 # Set up website metadata
 meta() %>%
@@ -229,16 +231,18 @@ at people who don't use platforms like Vim and Emacs.
 
 Many of the solutions I'll mention are easily handled on these platforms, 
 
-but they come with a learning curve, so I'm going to highlight 
+but they come with a learning curve, and not everyone uses them.
 
-some tools that are hopefully useful for any general typist.
+So I'm going to highlight ideas that are hopefully useful for 
+
+any general typist.
 
 ---
 
 class: center
 background-color: #fff
 
-# Learn to touch type
+# Learn to touch type _well_
 
 ### https://www.keybr.com/
 
@@ -248,17 +252,41 @@ background-color: #fff
 
 ???
 
-I'll start with some really basic suggestions 
+My first suggestion is really basic, and that's 
 
-and my first is simply to learn to touch type
+to learn to touch type well, and by that I don't just mean 
 
-and by that I mean learn to use all 10 fingers
+use all 10 fingers while typing.
 
-while typing. And that's really just to be efficient.
+---
 
-There are some great free tools out there 
+class: center
 
-for learning. My personal favorite is key-br-dot-com.
+# Learn to touch type _well_
+
+### https://www.keybr.com/
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Periodic programming advice: practice your touch typing skills. If you type less than 90 wpm and/or look at the keys, your typing speed is likely to be a programming bottleneck. Fortunately, it&#39;s one of the easiest bottlenecks to fix with a little deliberate practice.</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/1169603647614967808?ref_src=twsrc%5Etfw">September 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+???
+
+I mean actually practice your typing skills. 
+
+Hadley Wickham actually tweeted about this, 
+
+suggesting people aim for somewhere between 60 to 90
+
+words per minute. I found that with just a little 
+
+bit of consistent practice, over a month I increased my 
+
+typing speed by about 30 words per minute. 
+
+There are lots of great free tools out there 
+
+for practice, and my personal favorite is key-br-dot-com.
 
 ---
 
@@ -275,23 +303,75 @@ The other thing I'll note on this is that I personally haven't
 
 seen much benefit to learning alternative keyboard layouts. 
 
-So the default QWERTY layout is actually not very great,
-
-And while you can gain a little bit of typing speed by 
+While you can gain a little bit of typing speed by 
 
 learning an alternative like DVORAK or COLEMAK, it's much, much 
 
-more important that you learn ANY layout really well. 
-
-So if you're just starting, maybe start with a different layout, 
-
-but if you already touch type, it's more important that you get
-
-good at it.
+more important that you really master ANY layout really well. 
 
 ---
 
 # .center[Learn shortcuts]
+
+.leftcol[
+Insert a `<-` operator:
+
+- **Windows**: `ALT` + `-`
+- **Mac**: `OPTION` + `-`
+]
+
+.rightcol[
+Insert a `%>%` operator:
+
+- **Windows**: `CTRL` + `SHIFT` + `M`
+- **Mac**: `COMMAND` + `SHIFT` + `M`
+]
+
+???
+
+My next suggestion is to learn your shortcuts.
+
+There are some really useful simple ones, like 
+
+using "alt" + "dash" to create an assignment operator, 
+
+or "Command" "shift" "M" to make a pipe.
+
+---
+
+class: center
+
+# Learn shortcuts
+
+.leftcol40[
+## Align messy code:
+
+## `Ctrl + I`
+]
+
+.rightcol60[
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of my favorite <a href="https://twitter.com/rstudio?ref_src=twsrc%5Etfw">@rstudio</a> shortcuts: Ctrl+I. If your code is misaligned/messy for whatever reason, RStudio will clean it right up for you. <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/BzPaPhP9Zl">pic.twitter.com/BzPaPhP9Zl</a></p>&mdash; Kyle Walker (@kyle_e_walker) <a href="https://twitter.com/kyle_e_walker/status/1117801495884386304?ref_src=twsrc%5Etfw">April 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+]
+
+---
+
+class: center
+
+# Learn shortcuts
+
+.leftcol40[
+## Use multiple cursors:
+
+## Hold `Alt/Option` + <br>click & drag 
+]
+
+.rightcol60[
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Loved the cooking metaphors 🔪🎂 in <a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw">@hadleywickham</a>&#39;s <a href="https://twitter.com/RLadiesSF?ref_src=twsrc%5Etfw">@RLadiesSF</a> talk yesterday! but the best part was watching Hadley speed-code live and learning neat tricks like this: <a href="https://t.co/UVmrPbxpho">pic.twitter.com/UVmrPbxpho</a></p>&mdash; Irene Steves (@i_steves) <a href="https://twitter.com/i_steves/status/995394452821721088?ref_src=twsrc%5Etfw">May 12, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+]
 
 ---
 

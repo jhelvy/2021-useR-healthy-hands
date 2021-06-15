@@ -17,6 +17,9 @@
     <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
     <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <script src="libs/freezeframe/freezeframe.min.js"></script>
+    <script src="libs/xaringanExtra-freezeframe/freezeframe-init.js"></script>
+    <script id="xaringanExtra-freezeframe-options" type="application/json">{"selector":"img[src$=\"gif\"]","trigger":"click","overlay":false,"responsive":false,"warnings":true}</script>
     <meta name="description" content="Healthier &amp; Happier Hands: Software and Hardware Solutions for More Ergonomic Typing"/>
     <meta name="generator" content="xaringan and remark.js"/>
     <meta name="github-repo" content="jhelvy/2021-useR-healthy-hands"/>
@@ -192,16 +195,18 @@ at people who don't use platforms like Vim and Emacs.
 
 Many of the solutions I'll mention are easily handled on these platforms, 
 
-but they come with a learning curve, so I'm going to highlight 
+but they come with a learning curve, and not everyone uses them.
 
-some tools that are hopefully useful for any general typist.
+So I'm going to highlight ideas that are hopefully useful for 
+
+any general typist.
 
 ---
 
 class: center
 background-color: #fff
 
-# Learn to touch type
+# Learn to touch type _well_
 
 ### https://www.keybr.com/
 
@@ -211,17 +216,41 @@ background-color: #fff
 
 ???
 
-I'll start with some really basic suggestions 
+My first suggestion is really basic, and that's 
 
-and my first is simply to learn to touch type
+to learn to touch type well, and by that I don't just mean 
 
-and by that I mean learn to use all 10 fingers
+use all 10 fingers while typing.
 
-while typing. And that's really just to be efficient.
+---
 
-There are some great free tools out there 
+class: center
 
-for learning. My personal favorite is key-br-dot-com.
+# Learn to touch type _well_
+
+### https://www.keybr.com/
+
+&lt;center&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Periodic programming advice: practice your touch typing skills. If you type less than 90 wpm and/or look at the keys, your typing speed is likely to be a programming bottleneck. Fortunately, it&amp;#39;s one of the easiest bottlenecks to fix with a little deliberate practice.&lt;/p&gt;&amp;mdash; Hadley Wickham (@hadleywickham) &lt;a href="https://twitter.com/hadleywickham/status/1169603647614967808?ref_src=twsrc%5Etfw"&gt;September 5, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;/center&gt;
+
+???
+
+I mean actually practice your typing skills. 
+
+Hadley Wickham actually tweeted about this, 
+
+suggesting people aim for somewhere between 60 to 90
+
+words per minute. I found that with just a little 
+
+bit of consistent practice, over a month I increased my 
+
+typing speed by about 30 words per minute. 
+
+There are lots of great free tools out there 
+
+for practice, and my personal favorite is key-br-dot-com.
 
 ---
 
@@ -238,23 +267,75 @@ The other thing I'll note on this is that I personally haven't
 
 seen much benefit to learning alternative keyboard layouts. 
 
-So the default QWERTY layout is actually not very great,
-
-And while you can gain a little bit of typing speed by 
+While you can gain a little bit of typing speed by 
 
 learning an alternative like DVORAK or COLEMAK, it's much, much 
 
-more important that you learn ANY layout really well. 
-
-So if you're just starting, maybe start with a different layout, 
-
-but if you already touch type, it's more important that you get
-
-good at it.
+more important that you really master ANY layout really well. 
 
 ---
 
 # .center[Learn shortcuts]
+
+.leftcol[
+Insert a `&lt;-` operator:
+
+- **Windows**: `ALT` + `-`
+- **Mac**: `OPTION` + `-`
+]
+
+.rightcol[
+Insert a `%&gt;%` operator:
+
+- **Windows**: `CTRL` + `SHIFT` + `M`
+- **Mac**: `COMMAND` + `SHIFT` + `M`
+]
+
+???
+
+My next suggestion is to learn your shortcuts.
+
+There are some really useful simple ones, like 
+
+using "alt" + "dash" to create an assignment operator, 
+
+or "Command" "shift" "M" to make a pipe.
+
+---
+
+class: center
+
+# Learn shortcuts
+
+.leftcol40[
+## Align messy code:
+
+## `Ctrl + I`
+]
+
+.rightcol60[
+&lt;center&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;One of my favorite &lt;a href="https://twitter.com/rstudio?ref_src=twsrc%5Etfw"&gt;@rstudio&lt;/a&gt; shortcuts: Ctrl+I. If your code is misaligned/messy for whatever reason, RStudio will clean it right up for you. &lt;a href="https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#rstats&lt;/a&gt; &lt;a href="https://t.co/BzPaPhP9Zl"&gt;pic.twitter.com/BzPaPhP9Zl&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kyle Walker (@kyle_e_walker) &lt;a href="https://twitter.com/kyle_e_walker/status/1117801495884386304?ref_src=twsrc%5Etfw"&gt;April 15, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;/center&gt;
+]
+
+---
+
+class: center
+
+# Learn shortcuts
+
+.leftcol40[
+## Use multiple cursors:
+
+## Hold `Alt/Option` + &lt;br&gt;click &amp; drag 
+]
+
+.rightcol60[
+&lt;center&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Loved the cooking metaphors 🔪🎂 in &lt;a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw"&gt;@hadleywickham&lt;/a&gt;&amp;#39;s &lt;a href="https://twitter.com/RLadiesSF?ref_src=twsrc%5Etfw"&gt;@RLadiesSF&lt;/a&gt; talk yesterday! but the best part was watching Hadley speed-code live and learning neat tricks like this: &lt;a href="https://t.co/UVmrPbxpho"&gt;pic.twitter.com/UVmrPbxpho&lt;/a&gt;&lt;/p&gt;&amp;mdash; Irene Steves (@i_steves) &lt;a href="https://twitter.com/i_steves/status/995394452821721088?ref_src=twsrc%5Etfw"&gt;May 12, 2018&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;/center&gt;
+]
 
 ---
 
@@ -350,6 +431,7 @@ jph@gwu.edu &lt;svg style="height:0.8em;top:.04em;position:relative;fill:white;"
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
 "highlightLines": true,
