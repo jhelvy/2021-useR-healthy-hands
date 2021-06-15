@@ -109,9 +109,15 @@ class: inverse, middle
 </center>
 ]
 
+???
+
+Hi everyone, my name is John Paul Helveston 
+
+and I want to talk about solutions to keep our hands healthy
+
 ---
 
-class: center, middle
+class: center
 background-color: #fff
 
 ## **Last year I typed 7.5 million key strokes**
@@ -122,45 +128,170 @@ background-color: #fff
 
 ???
 
-I'm an engineering professor, and last year I typed 7.5 million key strokes. 
+If you're like me and use R on a daily basis, 
 
-That's about 600,000 a month
+chances are you are probably racking up some serious 
+
+mileage on your keyboard. 
+
+Over the past year, I myself typed 7.5 million key strokes, 
+
+and in some months I log over 1 million.
+
+---
+
+background-image: url("images/hands.jpg")
+background-size: contain
+
+???
+
+With that level of wear and tear, 
+
+I started noticing a lot of wrist pain. 
+
+So I began a quest to find solutions.
+
+My goal of this talk is just to share what I've found 
+
+in the hopes that it might be helpful for others.
 
 ---
 
 class: inverse, middle, center
 
-# Software & Hardware
+.leftcol[
+# Software
+<center>
+<img src="images/software.jpeg" width=450>
+</center>
+]
+
+.rightcol[
+# Hardware
+<center>
+<img src="images/hardware.png" width=550>
+</center>
+]
+
+???
+
+I've broken my talk into two categories: 
+
+Software and Hardware
 
 ---
 
-class: middle, center
+class: inverse, middle, center
+
+.leftcol[
+# .green[Software]
+<center>
+<img src="images/software.jpeg" width=450>
+</center>
+]
+
+.rightcol[
+# Hardware
+<center>
+<img src="images/hardware.png" width=550>
+</center>
+]
+
+???
+
+So I'll start with software
+
+---
+
+class: center
 
 # Disclaimer
 
-## This talk is not for Vim / Emacs users
+## This talk is aimed at people who don't use Vim / Emacs
 
 .leftcol[
 <center>
-<img src="images/emacs.svg" width=400>
+<img src="images/vim.svg" width=350>
 </center>
 ]
 
 .rightcol[
 <center>
-<img src="images/vim.svg" width=400>
+<img src="images/emacs.png" width=350>
 </center>
 ]
 
+???
+
+Before I go any further, I want to first say this talk is aimed 
+
+at people who don't use platforms like Vim and Emacs.
+
+Many of the solutions I'll mention are easily handled on these platforms, 
+
+but they come with a learning curve, so I'm going to highlight 
+
+some tools that are hopefully useful for any general typist.
+
 ---
 
-class: inverse, middle, center
+class: center
+background-color: #fff
 
-# .orange[Software] & Hardware
+# Learn to touch type
+
+### https://www.keybr.com/
+
+<center>
+<img src="images/qwerty.png" width=700>
+</center>
+
+???
+
+I'll start with some really basic suggestions 
+
+and my first is simply to learn to touch type
+
+and by that I mean learn to use all 10 fingers
+
+while typing. And that's really just to be efficient.
+
+There are some great free tools out there 
+
+for learning. My personal favorite is key-br-dot-com.
 
 ---
 
-Learn shortcuts
+class: middle, center
+background-color: #fff
+
+<center>
+<img src="images/layouts.jpg" width=600>
+</center>
+
+???
+
+The other thing I'll note on this is that I personally haven't 
+
+seen much benefit to learning alternative keyboard layouts. 
+
+So the default QWERTY layout is actually not very great,
+
+And while you can gain a little bit of typing speed by 
+
+learning an alternative like DVORAK or COLEMAK, it's much, much 
+
+more important that you learn ANY layout really well. 
+
+So if you're just starting, maybe start with a different layout, 
+
+but if you already touch type, it's more important that you get
+
+good at it.
+
+---
+
+# .center[Learn shortcuts]
 
 ---
 
@@ -178,24 +309,48 @@ Navigation with layers
 
 ---
 
-Learn a new layout?
-(maybe not)
-
----
-
 More important to learn at least _a_ layout
 
 (learn to touch type)
+
 
 ---
 
 class: inverse, middle, center
 
-# Software & .orange[Hardware]
+.leftcol[
+# Software
+<center>
+<img src="images/software.jpeg" width=450>
+</center>
+]
+
+.rightcol[
+# .green[Hardware]
+<center>
+<img src="images/hardware.png" width=550>
+</center>
+]
+
+???
+
+So that was a lot of different software solutions
+
+and hopefully some of those will work well for you
+
+But there's also a lot to be gained by carefully 
+
+considering the hardware you use.
 
 ---
 
 Use a timer
+
+???
+
+While I'm mostly going to talk about which keyboard you use,
+
+I want to start by saying that 
 
 ---
 
