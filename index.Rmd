@@ -355,6 +355,12 @@ class: center
 </center>
 ]
 
+???
+
+But there are lots of lesser-known ones that are really useful, 
+
+like using control + I to auto-align messy code
+
 ---
 
 class: center
@@ -373,11 +379,107 @@ class: center
 </center>
 ]
 
+???
+
+Or another one of my favorites is to hold Alt or Option 
+
+and then click and drag to generate multiple cursors.
+
+This is really helpful for doing things like editing 
+
+elements in a vector.
+
 ---
 
-class: center
+# .center[Use a text expander]
 
-# Use a text expander
+<br><br><br>
+<center>
+<img src="images/espanso.svg" width=500>
+</center>
+
+???
+
+If you want to go beyond shortcuts supported in RStudio, 
+
+you can create your own using a text expander program.
+
+I use an open source text expander called espanso 
+
+to convert all sorts of short text snippets into larger blocks of text.
+
+---
+
+# .center[Use a text expander]
+
+.leftcol40[
+`ggpoint`
+
+```{r, eval=FALSE}
+ggplot() +
+    geom_point(aes(x = , y = ))
+```
+
+`ggsxc`
+
+```{r, eval=FALSE}
+scale_x_continuous() +
+```
+
+`ggsyc`
+
+```{r, eval=FALSE}
+scale_y_continuous() +
+```
+]
+
+.rightcol60[
+<br><center>
+<img src="images/ggplot.gif" width=700>
+</center>
+]
+
+???
+
+In this example, I use the trigger "ggpoint" to quickly create 
+
+the code for a scatterplot, and I also use the triggers "ggsxc" "ggsyc"
+
+to expand to scale_x_continuous and scale_y_continuous.
+
+This not only helps with speed, but also accuracy as I tend to
+
+have fewer typos when using these expansions to write code. 
+
+---
+
+# .center[Use a text expander]
+
+.leftcol[
+`rrsetup`
+
+````markdown
+`r ''````{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  fig.path = "figs/",
+  fig.width = 7.252,
+  fig.height = 4,
+  comment = "#>",
+  fig.retina = 3
+)
+```
+````
+]
+
+???
+
+This becomes particularly handy for any common code chunks 
+
+you use. For example, this is my typical "setup" code chunk 
+
+in most of my RMarkdown documents.
 
 ---
 

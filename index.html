@@ -319,6 +319,12 @@ class: center
 &lt;/center&gt;
 ]
 
+???
+
+But there are lots of lesser-known ones that are really useful, 
+
+like using control + I to auto-align messy code
+
 ---
 
 class: center
@@ -337,11 +343,110 @@ class: center
 &lt;/center&gt;
 ]
 
+???
+
+Or another one of my favorites is to hold Alt or Option 
+
+and then click and drag to generate multiple cursors.
+
+This is really helpful for doing things like editing 
+
+elements in a vector.
+
 ---
 
-class: center
+# .center[Use a text expander]
 
-# Use a text expander
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;center&gt;
+&lt;img src="images/espanso.svg" width=500&gt;
+&lt;/center&gt;
+
+???
+
+If you want to go beyond shortcuts supported in RStudio, 
+
+you can create your own using a text expander program.
+
+I use an open source text expander called espanso 
+
+to convert all sorts of short text snippets into larger blocks of text.
+
+---
+
+# .center[Use a text expander]
+
+.leftcol40[
+`ggpoint`
+
+
+```r
+ggplot() +
+    geom_point(aes(x = , y = ))
+```
+
+`ggsxc`
+
+
+```r
+scale_x_continuous() +
+```
+
+`ggsyc`
+
+
+```r
+scale_y_continuous() +
+```
+]
+
+.rightcol60[
+&lt;br&gt;&lt;center&gt;
+&lt;img src="images/ggplot.gif" width=700&gt;
+&lt;/center&gt;
+]
+
+???
+
+In this example, I use the trigger "ggpoint" to quickly create 
+
+the code for a scatterplot, and I also use the triggers "ggsxc" "ggsyc"
+
+to expand to scale_x_continuous and scale_y_continuous.
+
+This not only helps with speed, but also accuracy as I tend to
+
+have fewer typos when using these expansions to write code. 
+
+---
+
+# .center[Use a text expander]
+
+.leftcol[
+`rrsetup`
+
+````markdown
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  fig.path = "figs/",
+  fig.width = 7.252,
+  fig.height = 4,
+  comment = "#&gt;",
+  fig.retina = 3
+)
+```
+````
+]
+
+???
+
+This becomes particularly handy for any common code chunks 
+
+you use. For example, this is my typical "setup" code chunk 
+
+in most of my RMarkdown documents.
 
 ---
 
