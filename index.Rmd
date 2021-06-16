@@ -560,10 +560,11 @@ accessing other keys.
 
 ---
 
+background-color: #fff
 class: middle
 
 <center>
-<img src="images/navigation.jpg" width=900>
+<img src="images/navigation.png" width=900>
 </center>
 
 ???
@@ -576,6 +577,7 @@ away from the home row position.
 
 ---
 
+background-color: #fff
 class: middle
 
 <center>
@@ -586,7 +588,9 @@ class: middle
 
 A nice solution is to make these and other convenient 
 
-keys available from a new layer. 
+keys available from a new layer so I don't have to 
+
+keep moving my hands
 
 ---
 
@@ -628,7 +632,39 @@ your entire keyboard.
 
 ---
 
+background-color: #fff
+class: center
 
+# Caps Lock Layer
+
+<center>
+<img src="images/remap.png" width=1100>
+</center>
+
+???
+
+As an example, on my keyboard I've used 
+
+Karabiner-Elements to re-map my caps lock key
+
+such that when held down I get a new layer that 
+
+has navigation arrows under my right hand, and 
+
+cut, copy, and paste under my left
+
+---
+
+
+
+
+???
+
+This enables me quickly navigate around in
+
+RStudio and manipulate code without ever 
+
+needing to leave the home row position.
 
 
 
