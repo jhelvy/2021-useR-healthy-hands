@@ -115,7 +115,9 @@ class: inverse, middle
 
 Hi everyone, my name is John Paul Helveston 
 
-and I want to talk about solutions to keep our hands healthy
+and I want to talk about solutions to keep our hands 
+
+happy and healthy
 
 ---
 
@@ -130,15 +132,11 @@ background-color: #fff
 
 ???
 
-If you're like me and use R on a daily basis, 
+I use R on a daily basis, and over the past year, I 
 
-chances are you are probably racking up some serious 
+typed 7.5 million key strokes. 
 
-mileage on your keyboard. 
-
-Over the past year, I myself typed 7.5 million key strokes, 
-
-and in some months I log over 1 million.
+In some months I logged over 1 million.
 
 ---
 
@@ -153,23 +151,21 @@ I started noticing a lot of wrist pain.
 
 So I began a quest to find solutions.
 
-My goal of this talk is just to share what I've found 
-
-in the hopes that it might be helpful for others.
+And this talk is just a summary of what I've found.
 
 ---
 
 class: inverse, middle, center
 
 .leftcol[
-# Software
+# Efficient typing
 <center>
-<img src="images/software.jpeg" width=450>
+<img src="images/typing.png" width=600>
 </center>
 ]
 
 .rightcol[
-# Hardware
+# Ergonomic keyboards
 <center>
 <img src="images/hardware.png" width=550>
 </center>
@@ -177,23 +173,25 @@ class: inverse, middle, center
 
 ???
 
-I've broken my talk into two categories: 
+I've organized my thoughts into two categories:
 
-Software and Hardware
+To be more efficient in my typing, and  
+
+to use more a more ergonomic keyboard
 
 ---
 
 class: inverse, middle, center
 
 .leftcol[
-# .green[Software]
+# .green[Efficient typing]
 <center>
-<img src="images/software.jpeg" width=450>
+<img src="images/typing.png" width=600>
 </center>
 ]
 
 .rightcol[
-# Hardware
+# Ergonomic keyboards
 <center>
 <img src="images/hardware.png" width=550>
 </center>
@@ -201,39 +199,7 @@ class: inverse, middle, center
 
 ???
 
-So I'll start with software
-
----
-
-class: center
-
-# Disclaimer
-
-## This talk is aimed at people who don't use Vim / Emacs
-
-.leftcol[
-<center>
-<img src="images/vim.svg" width=350>
-</center>
-]
-
-.rightcol[
-<center>
-<img src="images/emacs.png" width=350>
-</center>
-]
-
-???
-
-Before I go any further, I want to first say this talk is aimed 
-
-at people who don't use platforms like Vim and Emacs.
-
-These platforms are great, and if you use them, fantastic,
-
-But not everyone does, so I'm going to highlight ideas that 
-
-are hopefully useful for any general typist.
+So I'll start with efficiency
 
 ---
 
@@ -242,7 +208,7 @@ background-color: #fff
 
 # Learn to touch type _well_
 
-### https://www.keybr.com/
+## https://www.keybr.com/
 
 <center>
 <img src="images/qwerty.png" width=700>
@@ -256,27 +222,7 @@ to learn to touch type well, and by that I don't just mean
 
 use all 10 fingers while typing.
 
----
-
-class: center
-
-# Learn to touch type _well_
-
-### https://www.keybr.com/
-
-<center>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Periodic programming advice: practice your touch typing skills. If you type less than 90 wpm and/or look at the keys, your typing speed is likely to be a programming bottleneck. Fortunately, it&#39;s one of the easiest bottlenecks to fix with a little deliberate practice.</p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/1169603647614967808?ref_src=twsrc%5Etfw">September 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</center>
-
-???
-
-I mean actually practice your typing skills. 
-
-Hadley Wickham actually tweeted about this, 
-
-saying you should aim for 90 words per minute. 
-
-(he later wrote maybe 60 is more reasonable). 
+I mean actually practice your typing.
 
 I found that with just a little bit of consistent 
 
@@ -284,32 +230,11 @@ practice on key-br-dot-com, I increased my
 
 typing speed from about 60 to 90 words per minute 
 
-in just one month. But it's not just about speed - 
+in just one month. But I also found that my typing 
 
-it's about accuracy as well. The fewer times you have 
+accuracy improved. As simple as it sounds, some regular 
 
-to press backspace the better.
-
----
-
-class: middle, center
-background-color: #fff
-
-<center>
-<img src="images/layouts.jpg" width=600>
-</center>
-
-???
-
-The other thing I'll note on this is that I personally haven't 
-
-seen much benefit to learning alternative keyboard layouts. 
-
-While you can gain a little bit of typing speed by 
-
-learning an alternative like DVORAK or COLEMAK, it's much, much 
-
-more important that you really master ANY layout really well.
+typing practice can really go a long way.
 
 ---
 
@@ -331,7 +256,7 @@ Insert a `%>%` operator:
 
 ???
 
-My next suggestion is to learn your shortcuts.
+My next suggestion is to master keyboard shortcuts.
 
 RStudio is packed with super useful ones, like 
 
@@ -361,7 +286,9 @@ class: center
 
 But there are lots of lesser-known ones, 
 
-like using control + I to auto-align messy code
+like selecting some messy code and using 
+
+control + I to auto-align everything.
 
 ---
 
@@ -383,35 +310,11 @@ class: center
 
 ???
 
-Or another one of my favorites is to hold Alt or Option 
+Or to hold the Alt key then click and drag to 
 
-and then click and drag to generate multiple cursors.
+generate multiple cursors. This is really helpful 
 
-This is really helpful for doing things like editing 
-
-elements in a vector.
-
----
-
-# .center[Use a text expander]
-
-<center>
-<img src="images/ggplot.gif" width=700>
-<br>
-Powered by <img src="images/espanso.svg" width=100>
-</center>
-
-???
-
-But shortcuts are just a starting point for streamlining your typing.
-
-There is a whole class of programs called text expanders
-
-convert short text "triggers" into pre-formatted 
-
-snippets. My favorite is espanso, which is an open source 
-
-expander written in Rust, that is super easy to customize.  
+for doing things like editing elements in a vector.
 
 ---
 
@@ -441,18 +344,28 @@ scale_y_continuous() +
 .rightcol60[
 <br><center>
 <img src="images/ggplot.gif" width=700>
+<br>
+Powered by <img src="images/espanso.svg" width=100>
 </center>
 ]
 
 ???
 
-In this example, you can see how I use the trigger "ggpoint" 
+I also highly recommend using a text expander, 
 
-to quickly create ggplot code for a scatterplot, 
+which are programs that convert short keywords 
 
-and I also use a couple other quick triggers to 
+into pre-formatted text snippets. 
 
-generate some code for the x and y axes.
+In this example, you can see how I use the keywords 
+
+on the left to quickly create some ggplot code for 
+
+a scatterplot. I use an open source expander 
+
+called espanso that is super easy to use 
+
+to create your own custom expansions like I did here.
 
 ---
 
@@ -478,11 +391,13 @@ knitr::opts_chunk$set(
 
 ???
 
-One of my favorite custom expansions is the trigger
+I custom expansions for all sorts of things.
 
-rrsetup, which generates this whole RMarkdown setup code 
+For example, I use the keyword 'rrsetup' to generate
 
-chunk, which I use in most of my RMarkdown documents.
+this whole code chunk, which I use at the start of most of my 
+
+RMarkdown documents.
 
 ---
 
@@ -492,27 +407,34 @@ class: center
 
 <br>
 
+<center>
+<img src="images/espanso.svg" width=500>
+</center>
+
 ## https://www.jhelvy.com/blog
 
 ???
 
-If you want to learn more about espanso in particular, 
+The particular expander I use is an open source one  
 
-I wrote a whole blog post about it on my website at 
+called espanso that is super easy to customize. 
 
-jhelvy.com
+If you want to learn more, I wrote a whole 
+
+blog post about it on my website at jhelvy.com
 
 ---
 
 class: center
 
-# Use additional keyboard layers
+# Use keyboard layers
 
 <br>
 
 --
 
 .cols3[
+## .center[Base layer]
 <center>
 1234567890
 <br>
@@ -525,12 +447,14 @@ zxcvnm,./
 ]
 
 .cols3[
+<br>
 <center>
 <img src="images/shift_key.png" width=100%>
 </center>
 ]
 
 .cols3[
+## .center[Shift layer]
 <center>
 !@#$%^&*()
 <br>
@@ -544,19 +468,19 @@ ZXCVBNM<>?
 
 ???
 
-My third suggestion is to use additional keyboard layers.
+My third suggestion is to use keyboard layers.
 
-Most keyboards have several layers. For example, 
+Though you might not think of it this way, every 
 
-when you hold down the "shift" key, you engage a new layer
+keyboard has multiple layers. For example, 
 
-where lower-case letters become upper-case,
+when you hold the "shift" key, the lower-case 
 
-and numbers become symbols. This is really useful because 
+letters become upper-case, and numbers become symbols. 
 
-it allows us to keep our hands in one place while 
+This is really useful because it allows us to keep 
 
-accessing other keys.
+our hands in one place while accessing other keys.
 
 ---
 
@@ -586,11 +510,9 @@ class: middle
 
 ???
 
-A nice solution is to make these and other convenient 
+A nice solution is to use layers to move these keys 
 
-keys available from a new layer so I don't have to 
-
-keep moving my hands
+back under our home row position.
 
 ---
 
@@ -618,17 +540,11 @@ class: center, middle
 
 ???
 
-There are a number of programs that support this. 
+There are a number of programs for customizing and 
 
-On Windows most people use Auto-hot-key, 
+remapping your keyboard. On Windows most people use 
 
-and on Mac there's a similar program called 
-
-Karabiner Elements. These are both very flexible 
-
-programs that allow you to customize and remap 
-
-your entire keyboard.
+Auto-hot-key, and on Mac you can use Karabiner Elements. 
 
 ---
 
@@ -655,8 +571,7 @@ cut, copy, and paste under my left
 
 ---
 
-
-
+GIF of typing and navigating from home row
 
 ???
 
@@ -674,14 +589,14 @@ needing to leave the home row position.
 class: inverse, middle, center
 
 .leftcol[
-# Software
+# Efficient typing
 <center>
-<img src="images/software.jpeg" width=450>
+<img src="images/typing.png" width=600>
 </center>
 ]
 
 .rightcol[
-# .green[Hardware]
+# .green[Ergonomic keyboards]
 <center>
 <img src="images/hardware.png" width=550>
 </center>
@@ -696,18 +611,6 @@ and hopefully some of those will work well for you
 But there's also a lot to be gained by carefully 
 
 considering the hardware you use.
-
----
-
-class: center
-
-# Use a timer
-
-???
-
-While I'm mostly going to talk about which keyboard you use,
-
-I want to start by saying that 
 
 ---
 
@@ -728,6 +631,18 @@ class: center
 class: center
 
 # Use a split keyboard _that is programmable_
+
+---
+
+class: center
+
+# Use a timer
+
+???
+
+While I'm mostly going to talk about which keyboard you use,
+
+I want to start by saying that 
 
 ---
 
