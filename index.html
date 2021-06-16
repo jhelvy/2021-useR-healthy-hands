@@ -193,13 +193,11 @@ Before I go any further, I want to first say this talk is aimed
 
 at people who don't use platforms like Vim and Emacs.
 
-Many of the solutions I'll mention are easily handled on these platforms, 
+These platforms are great, and if you use them, fantastic,
 
-but they come with a learning curve, and not everyone uses them.
+But not everyone does, so I'm going to highlight ideas that 
 
-So I'm going to highlight ideas that are hopefully useful for 
-
-any general typist.
+are hopefully useful for any general typist.
 
 ---
 
@@ -240,17 +238,21 @@ I mean actually practice your typing skills.
 
 Hadley Wickham actually tweeted about this, 
 
-suggesting people aim for somewhere between 60 to 90
+saying you should aim for 90 words per minute. 
 
-words per minute. I found that with just a little 
+(he later wrote maybe 60 is more reasonable). 
 
-bit of consistent practice, over a month I increased my 
+I found that with just a little bit of consistent 
 
-typing speed by about 30 words per minute. 
+practice on key-br-dot-com, I increased my 
 
-There are lots of great free tools out there 
+typing speed from about 60 to 90 words per minute 
 
-for practice, and my personal favorite is key-br-dot-com.
+in just one month. But it's not just about speed - 
+
+it's about accuracy as well. The fewer times you have 
+
+to press backspace the better.
 
 ---
 
@@ -271,7 +273,7 @@ While you can gain a little bit of typing speed by
 
 learning an alternative like DVORAK or COLEMAK, it's much, much 
 
-more important that you really master ANY layout really well. 
+more important that you really master ANY layout really well.
 
 ---
 
@@ -295,7 +297,7 @@ Insert a `%&gt;%` operator:
 
 My next suggestion is to learn your shortcuts.
 
-There are some really useful simple ones, like 
+RStudio is packed with super useful ones, like 
 
 using "alt" + "dash" to create an assignment operator, 
 
@@ -321,7 +323,7 @@ class: center
 
 ???
 
-But there are lots of lesser-known ones that are really useful, 
+But there are lots of lesser-known ones, 
 
 like using control + I to auto-align messy code
 
@@ -357,20 +359,23 @@ elements in a vector.
 
 # .center[Use a text expander]
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;
 &lt;center&gt;
-&lt;img src="images/espanso.svg" width=500&gt;
+&lt;img src="images/ggplot.gif" width=700&gt;
+&lt;br&gt;
+Powered by &lt;img src="images/espanso.svg" width=100&gt;
 &lt;/center&gt;
 
 ???
 
-If you want to go beyond shortcuts supported in RStudio, 
+But shortcuts are just a starting point for streamlining your typing.
 
-you can create your own using a text expander program.
+There is a whole class of programs called text expanders
 
-I use an open source text expander called espanso 
+convert short text "triggers" into pre-formatted 
 
-to convert all sorts of short text snippets into larger blocks of text.
+snippets. My favorite is espanso, which is an open source 
+
+expander written in Rust, that is super easy to customize.  
 
 ---
 
@@ -408,15 +413,13 @@ scale_y_continuous() +
 
 ???
 
-In this example, I use the trigger "ggpoint" to quickly create 
+In this example, you can see how I use the trigger "ggpoint" 
 
-the code for a scatterplot, and I also use the triggers "ggsxc" "ggsyc"
+to quickly create ggplot code for a scatterplot, 
 
-to expand to scale_x_continuous and scale_y_continuous.
+and I also use a couple other quick triggers to 
 
-This not only helps with speed, but also accuracy as I tend to
-
-have fewer typos when using these expansions to write code. 
+generate some code for the x and y axes.
 
 ---
 
@@ -442,25 +445,160 @@ knitr::opts_chunk$set(
 
 ???
 
-This becomes particularly handy for any common code chunks 
+One of my favorite custom expansions is the trigger
 
-you use. For example, this is my typical "setup" code chunk 
+rrsetup, which generates this whole RMarkdown setup code 
 
-in most of my RMarkdown documents.
+chunk, which I use in most of my RMarkdown documents.
+
+---
+
+class: center 
+
+# Use a text expander
+
+&lt;br&gt;
+
+## https://www.jhelvy.com/blog
+
+???
+
+If you want to learn more about espanso in particular, 
+
+I wrote a whole blog post about it on my website at 
+
+jhelvy.com
 
 ---
 
 class: center
 
-# Remap your keyboard
+# Use additional keyboard layers
+
+&lt;br&gt;
+
+--
+
+.cols3[
+&lt;center&gt;
+1234567890
+&lt;br&gt;
+qwertyuiop
+&lt;br&gt;
+asdfgjhkl'
+&lt;br&gt;
+zxcvnm,./
+&lt;/center&gt;
+]
+
+.cols3[
+&lt;center&gt;
+&lt;img src="images/shift_key.png" width=100%&gt;
+&lt;/center&gt;
+]
+
+.cols3[
+&lt;center&gt;
+!@#$%^&amp;*()
+&lt;br&gt;
+QWERTYUIOP
+&lt;br&gt;
+ASDFGHJKL"
+&lt;br&gt;
+ZXCVBNM&lt;&gt;?
+&lt;/center&gt;
+]
+
+???
+
+My third suggestion is to use additional keyboard layers.
+
+Most keyboards have several layers. For example, 
+
+when you hold down the "shift" key, you engage a new layer
+
+where lower-case letters become upper-case,
+
+and numbers become symbols. This is really useful because 
+
+it allows us to keep our hands in one place while 
+
+accessing other keys.
 
 ---
 
-class: center
+class: middle
 
-# Use layers
+&lt;center&gt;
+&lt;img src="images/navigation.jpg" width=900&gt;
+&lt;/center&gt;
 
-Navigation with layers
+???
+
+Unfortunately, many of the most useful keys for coding,
+
+like our navigation arrows, require us to move our hands
+
+away from the home row position. 
+
+---
+
+class: middle
+
+&lt;center&gt;
+&lt;img src="images/navigation_layer.png" width=900&gt;
+&lt;/center&gt;
+
+???
+
+A nice solution is to make these and other convenient 
+
+keys available from a new layer. 
+
+---
+
+class: center, middle
+
+.leftcol[
+# Windows 
+
+#### https://www.autohotkey.com/
+
+&lt;center&gt;
+&lt;img src="images/ahk_logo_no_text.svg" width=500&gt;
+&lt;/center&gt;
+]
+
+.rightcol[
+# Mac 
+
+#### https://karabiner-elements.pqrs.org/
+
+&lt;center&gt;
+&lt;img src="images/kbe.png" width=300&gt;
+&lt;/center&gt;
+]
+
+???
+
+There are a number of programs that support this. 
+
+On Windows most people use Auto-hot-key, 
+
+and on Mac there's a similar program called 
+
+Karabiner Elements. These are both very flexible 
+
+programs that allow you to customize and remap 
+
+your entire keyboard.
+
+---
+
+
+
+
+
 
 ---
 
