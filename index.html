@@ -17,9 +17,6 @@
     <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
     <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
-    <script src="libs/freezeframe/freezeframe.min.js"></script>
-    <script src="libs/xaringanExtra-freezeframe/freezeframe-init.js"></script>
-    <script id="xaringanExtra-freezeframe-options" type="application/json">{"selector":"img[src$=\"gif\"]","trigger":"click","overlay":false,"responsive":false,"warnings":true}</script>
     <meta name="description" content="Healthier &amp; Happier Hands: Software and Hardware Solutions for More Ergonomic Typing"/>
     <meta name="generator" content="xaringan and remark.js"/>
     <meta name="github-repo" content="jhelvy/2021-useR-healthy-hands"/>
@@ -336,25 +333,17 @@ to create your own custom expansions like I did here.
 
 ---
 
-# .center[Use a text expander]
+class: center
 
-.leftcol[
+# Use a text expander
+
 `rrsetup`
 
-````markdown
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  warning = FALSE,
-  message = FALSE,
-  fig.path = "figs/",
-  fig.width = 7.252,
-  fig.height = 4,
-  comment = "#&gt;",
-  fig.retina = 3
-)
-```
-````
-]
+&lt;center&gt;
+&lt;img src="images/rrsetup.gif" width=700&gt;
+&lt;br&gt;
+Powered by &lt;img src="images/espanso.svg" width=100&gt;
+&lt;/center&gt;
 
 ???
 
@@ -397,8 +386,6 @@ class: center
 # Use keyboard layers
 
 &lt;br&gt;
-
---
 
 .cols3[
 ## .center[Base layer]
@@ -455,7 +442,7 @@ background-color: #fff
 class: middle
 
 &lt;center&gt;
-&lt;img src="images/navigation.png" width=900&gt;
+&lt;img src="images/keyboard_nav.png" width=900&gt;
 &lt;/center&gt;
 
 ???
@@ -472,7 +459,7 @@ background-color: #fff
 class: middle
 
 &lt;center&gt;
-&lt;img src="images/navigation_layer.png" width=900&gt;
+&lt;img src="images/keyboard_nav_layer.png" width=900&gt;
 &lt;/center&gt;
 
 ???
@@ -521,7 +508,7 @@ class: center
 # Caps Lock Layer
 
 &lt;center&gt;
-&lt;img src="images/remap.png" width=1100&gt;
+&lt;img src="images/keyboard_remap.png" width=1100&gt;
 &lt;/center&gt;
 
 ???
@@ -538,7 +525,15 @@ cut, copy, and paste under my left
 
 ---
 
-GIF of typing and navigating from home row
+class: middle 
+
+&lt;center&gt;
+&lt;video width="1000" controls&gt;
+  &lt;source src="images/keyboard_nav_demo.mp4" type="video/mp4"&gt;
+  &lt;source src="images/keyboard_nav_demo.mp4" type="video/ogg"&gt;
+  Your browser does not support HTML video.
+&lt;/video&gt;
+&lt;/center&gt;
 
 ???
 
@@ -547,9 +542,6 @@ This enables me quickly navigate around in
 RStudio and manipulate code without ever 
 
 needing to leave the home row position.
-
-
-
 
 ---
 

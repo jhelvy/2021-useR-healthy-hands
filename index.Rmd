@@ -53,7 +53,6 @@ xaringanExtra::use_extra_styles(
   hover_code_line = TRUE,
   mute_unhighlighted_code = FALSE
 )
-xaringanExtra::use_freezeframe(responsive = FALSE)
 
 # Set up website metadata
 meta() %>%
@@ -369,25 +368,17 @@ to create your own custom expansions like I did here.
 
 ---
 
-# .center[Use a text expander]
+class: center
 
-.leftcol[
+# Use a text expander
+
 `rrsetup`
 
-````markdown
-`r ''````{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  warning = FALSE,
-  message = FALSE,
-  fig.path = "figs/",
-  fig.width = 7.252,
-  fig.height = 4,
-  comment = "#>",
-  fig.retina = 3
-)
-```
-````
-]
+<center>
+<img src="images/rrsetup.gif" width=700>
+<br>
+Powered by <img src="images/espanso.svg" width=100>
+</center>
 
 ???
 
@@ -430,8 +421,6 @@ class: center
 # Use keyboard layers
 
 <br>
-
---
 
 .cols3[
 ## .center[Base layer]
@@ -488,7 +477,7 @@ background-color: #fff
 class: middle
 
 <center>
-<img src="images/navigation.png" width=900>
+<img src="images/keyboard_nav.png" width=900>
 </center>
 
 ???
@@ -505,7 +494,7 @@ background-color: #fff
 class: middle
 
 <center>
-<img src="images/navigation_layer.png" width=900>
+<img src="images/keyboard_nav_layer.png" width=900>
 </center>
 
 ???
@@ -554,7 +543,7 @@ class: center
 # Caps Lock Layer
 
 <center>
-<img src="images/remap.png" width=1100>
+<img src="images/keyboard_remap.png" width=1100>
 </center>
 
 ???
@@ -571,7 +560,15 @@ cut, copy, and paste under my left
 
 ---
 
-GIF of typing and navigating from home row
+class: middle 
+
+<center>
+<video width="1000" controls>
+  <source src="images/keyboard_nav_demo.mp4" type="video/mp4">
+  <source src="images/keyboard_nav_demo.mp4" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+</center>
 
 ???
 
@@ -580,9 +577,6 @@ This enables me quickly navigate around in
 RStudio and manipulate code without ever 
 
 needing to leave the home row position.
-
-
-
 
 ---
 
