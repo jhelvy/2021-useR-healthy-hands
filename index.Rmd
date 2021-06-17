@@ -132,11 +132,11 @@ background-color: #fff
 
 ???
 
-I use R on a daily basis, and over the past year, I 
+If you're a regular R user like me, chances are you
 
-typed 7.5 million key strokes. 
+rack up some serious mileage on your keyboard.
 
-In some months I logged over 1 million.
+I myself typed 7.5 million key strokes over the past year.
 
 ---
 
@@ -145,68 +145,20 @@ background-size: contain
 
 ???
 
-With that level of wear and tear, 
+That level of wear and tear can cause pain and serious
 
-I started noticing a lot of wrist pain. 
+injuries. So my talk today is a quick overview
 
-So I began a quest to find solutions.
+of some tools and suggestions to take better care
 
-And this talk is just a summary of what I've found.
-
----
-
-class: inverse, middle, center
-
-.leftcol[
-# Better typing
-<center>
-<img src="images/typing.png" width=600>
-</center>
-]
-
-.rightcol[
-# Better keyboards
-<center>
-<img src="images/ergodox.png" width=550>
-</center>
-]
-
-???
-
-I've organized my thoughts into two categories:
-
-To be more efficient in my typing, and  
-
-to use more a more ergonomic keyboard
-
----
-
-class: inverse, middle, center
-
-.leftcol[
-# .green[Better typing]
-<center>
-<img src="images/typing.png" width=600>
-</center>
-]
-
-.rightcol[
-# Better keyboards
-<center>
-<img src="images/ergodox.png" width=550>
-</center>
-]
-
-???
-
-So I'll start with efficiency
+of your hands while typing.
 
 ---
 
 class: center
 background-color: #fff
 
-# Learn to touch type _well_
+# Practice Typing
 
 ## https://www.keybr.com/
 
@@ -216,53 +168,46 @@ background-color: #fff
 
 ???
 
-My first suggestion is really basic, and that's 
-
-to learn to touch type well, and by that I don't just mean 
-
-use all 10 fingers while typing.
-
-I mean actually practice your typing.
+My first suggestion is simply to practice your typing.
 
 I found that with just a little bit of consistent 
 
-practice on key-br-dot-com, I increased my 
+practice on key-br-dot-com, I increased both my
 
-typing speed from about 60 to 90 words per minute 
+typing speed and accuracy by about 20% in a couple months. 
 
-in just one month. But I also found that my typing 
+Most coders can benefit from spending a little time 
 
-accuracy improved. As simple as it sounds, some regular 
-
-typing practice can really go a long way.
+becoming a better typist.
 
 ---
 
-# .center[Learn shortcuts]
+class: center
+# Master keyboard shortcuts
+
+<br>
 
 .leftcol[
-Insert a `<-` operator:
+## Insert `<-` with:
 
-- **Windows**: `ALT` + `-`
-- **Mac**: `OPTION` + `-`
+## `alt/option` + `-`
 ]
 
 .rightcol[
-Insert a `%>%` operator:
+## Insert `%>%` with:
 
-- **Windows**: `CTRL` + `SHIFT` + `M`
-- **Mac**: `COMMAND` + `SHIFT` + `M`
+## `ctrl/cmd` + `shift` + `M`
 ]
 
 ???
 
-My next suggestion is to master keyboard shortcuts.
+My next suggestion is to master keyboard shortcuts. 
 
-RStudio is packed with super useful ones, like 
+RStudio is packed with excellent shortcuts, like
 
-using "alt" + "dash" to create an assignment operator, 
+"alt" + "dash" to create an assignment operator, 
 
-or "Command" "shift" "M" to make a pipe.
+or command-shift-M to make a pipe.
 
 ---
 
@@ -284,11 +229,13 @@ class: center
 
 ???
 
-But there are lots of lesser-known ones, 
+But there are many more than can save you 
 
-like selecting some messy code and using 
+loads of typing. For example, if you want to 
 
-control + I to auto-align everything.
+align a bunch of messy text, just select it 
+
+and type control + I.
 
 ---
 
@@ -310,62 +257,11 @@ class: center
 
 ???
 
-Or to hold the Alt key then click and drag to 
+Or generate multiple cursors by holding the 
 
-generate multiple cursors. This is really helpful 
+Alt key and selecting some lines. This is particularly 
 
-for doing things like editing elements in a vector.
-
----
-
-# .center[Use a text expander]
-
-.leftcol40[
-`ggpoint`
-
-```{r, eval=FALSE}
-ggplot() +
-    geom_point(aes(x = , y = ))
-```
-
-`ggsxc`
-
-```{r, eval=FALSE}
-scale_x_continuous() +
-```
-
-`ggsyc`
-
-```{r, eval=FALSE}
-scale_y_continuous() +
-```
-]
-
-.rightcol60[
-<br><center>
-<img src="images/ggplot.gif" width=700>
-<br>
-Powered by <img src="images/espanso.svg" width=100>
-</center>
-]
-
-???
-
-I also highly recommend using a text expander, 
-
-which are programs that convert short keywords 
-
-into pre-formatted text snippets. 
-
-In this example, you can see how I use the keywords 
-
-on the left to quickly create some ggplot code for 
-
-a scatterplot. I use an open source expander 
-
-called espanso that is super easy to use 
-
-to create your own custom expansions like I did here.
+helpful for editing elements in a vector.
 
 ---
 
@@ -373,54 +269,58 @@ class: center
 
 # Use a text expander
 
-`rrsetup`
+<br>
 
+.leftcol[
+<center>
+<img src="images/ggplot.gif" width=100%>
+</center>
+]
+
+.rightcol[
 <center>
 <img src="images/rrsetup.gif" width=650>
 </center>
-
-???
-
-I custom expansions for all sorts of things.
-
-For example, I use the keyword 'rrsetup' to generate
-
-this whole code chunk, which I use at the start of most of my 
-
-RMarkdown documents.
-
----
-
-class: center 
-
-# Use a text expander
-
-<br>
+]
 
 <center>
-<img src="images/espanso.svg" width=500>
+Powered by <img src="images/espanso.svg" width=100>
+<br>
+See my post on espanso at <a href="https://www.jhelvy.com/blog">https://www.jhelvy.com/blog</a>
 </center>
-
-## https://www.jhelvy.com/blog
 
 ???
 
-The particular expander I use is an open source one  
+You can also create your own customized shortcuts
 
-called espanso that is super easy to customize. 
+by using a text expander, which are programs that 
 
-If you want to learn more, I wrote a whole 
+convert keywords into text snippets. In the example
 
-blog post about it on my website at jhelvy.com
+on the left, I'm using some custom keywords to quickly write 
+
+some ggplot code for a scatterplot. And on the right, 
+
+I'm using a single keyword to generate a typical setup 
+
+code chunk I use in most of my RMarkdown files.
+
+My favorite expander is an open source one
+
+called espanso, if you want to learn more at it, 
+
+I wrote a whole blog post about how I use it
+
+on my website at jhelvy.com.
 
 ---
 
 class: center
 
-# Use keyboard layers
+# Use custom keyboard layers
 
 .cols3[
-## .center[Base layer]
+## .center[**Base layer**]
 
 <center>
 <p style="font-size:40px;">
@@ -443,7 +343,7 @@ zxcvnm,./
 ]
 
 .cols3[
-## .center[Shift layer]
+## .center[**Shift layer**]
 
 <center>
 <p style="font-size:40px;">
@@ -460,19 +360,15 @@ ZXCVBNM<>?
 
 ???
 
-My third suggestion is to use keyboard layers.
+Another tip is to use custom keyboard layers.
 
-Though you might not think of it this way, every 
+Every keyboard has at least two layers: the base
 
-keyboard has multiple layers. For example, 
+layer of numbers and lower case letters, and 
 
-when you hold the "shift" key, the lower-case 
+another layer of symbols and upper case letters 
 
-letters become upper-case, and numbers become symbols. 
-
-This is really useful because it allows us to keep 
-
-our hands in one place while accessing other keys.
+when you hold down shift. 
 
 ---
 
@@ -480,7 +376,7 @@ background-color: #fff
 class: middle
 
 <center>
-<img src="images/keyboard_nav.png" width=900>
+<img src="images/keyboard_nav.png" width=1000>
 </center>
 
 ???
@@ -497,46 +393,14 @@ background-color: #fff
 class: middle
 
 <center>
-<img src="images/keyboard_nav_layer.png" width=900>
+<img src="images/keyboard_nav_layer.png" width=1000>
 </center>
 
 ???
 
-A nice solution is to use layers to move these keys 
+A nice solution is to use a custom layer to move 
 
-back under our home row position.
-
----
-
-class: center, middle
-
-.leftcol[
-# Windows 
-
-#### https://www.autohotkey.com/
-
-<center>
-<img src="images/ahk_logo_no_text.svg" width=500>
-</center>
-]
-
-.rightcol[
-# Mac 
-
-#### https://karabiner-elements.pqrs.org/
-
-<center>
-<img src="images/kbe.png" width=300>
-</center>
-]
-
-???
-
-There are a number of programs for customizing and 
-
-remapping your keyboard. On Windows most people use 
-
-Auto-hot-key, and on Mac you can use Karabiner Elements. 
+these keys back under our home row position.
 
 ---
 
@@ -551,15 +415,15 @@ class: center
 
 ???
 
-As an example, on my keyboard I've used 
+For example, on my keyboard I've re-mapped my 
 
-Karabiner-Elements to re-map my caps lock key
+caps lock key to trigger a new layer that
 
-such that when held down I get a new layer that 
+has navigation keys and forward and back delete 
 
-has navigation arrows under my right hand, and 
+under my right hand, and cut, copy, paste 
 
-cut, copy, and paste under my left
+under my left
 
 ---
 
@@ -583,31 +447,37 @@ needing to leave the home row position.
 
 ---
 
-class: inverse, middle, center
+class: center, middle
 
 .leftcol[
-# Better typing
+# Mac 
+
+#### https://karabiner-elements.pqrs.org/
+
 <center>
-<img src="images/typing.png" width=600>
+<img src="images/kbe.png" width=300>
 </center>
 ]
 
 .rightcol[
-# .green[Better keyboards]
+# Windows 
+
+#### https://www.autohotkey.com/
+
 <center>
-<img src="images/ergodox.png" width=550>
+<img src="images/ahk_logo_no_text.svg" width=500>
 </center>
 ]
 
 ???
 
-So that was a lot of different software solutions
+There are lots of programs that support this kind of 
 
-and hopefully some of those will work well for you
+customization. I use a program called Karabiner Elements 
 
-But there's also a lot to be gained by carefully 
+on a mac, but there's a similar program for Windows
 
-considering the hardware you use.
+called Auto-hot-key.
 
 ---
 
