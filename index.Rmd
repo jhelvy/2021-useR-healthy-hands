@@ -53,6 +53,7 @@ xaringanExtra::use_extra_styles(
   hover_code_line = TRUE,
   mute_unhighlighted_code = FALSE
 )
+xaringanExtra::use_freezeframe(responsive = FALSE)
 
 # Set up website metadata
 meta() %>%
@@ -157,16 +158,16 @@ And this talk is just a summary of what I've found.
 class: inverse, middle, center
 
 .leftcol[
-# Efficient typing
+# Better typing
 <center>
 <img src="images/typing.png" width=600>
 </center>
 ]
 
 .rightcol[
-# Ergonomic keyboards
+# Better keyboards
 <center>
-<img src="images/hardware.png" width=550>
+<img src="images/ergodox.png" width=550>
 </center>
 ]
 
@@ -183,16 +184,16 @@ to use more a more ergonomic keyboard
 class: inverse, middle, center
 
 .leftcol[
-# .green[Efficient typing]
+# .green[Better typing]
 <center>
 <img src="images/typing.png" width=600>
 </center>
 ]
 
 .rightcol[
-# Ergonomic keyboards
+# Better keyboards
 <center>
-<img src="images/hardware.png" width=550>
+<img src="images/ergodox.png" width=550>
 </center>
 ]
 
@@ -375,9 +376,7 @@ class: center
 `rrsetup`
 
 <center>
-<img src="images/rrsetup.gif" width=700>
-<br>
-Powered by <img src="images/espanso.svg" width=100>
+<img src="images/rrsetup.gif" width=650>
 </center>
 
 ???
@@ -420,11 +419,11 @@ class: center
 
 # Use keyboard layers
 
-<br>
-
 .cols3[
 ## .center[Base layer]
+
 <center>
+<p style="font-size:40px;">
 1234567890
 <br>
 qwertyuiop
@@ -432,6 +431,7 @@ qwertyuiop
 asdfgjhkl'
 <br>
 zxcvnm,./
+</p>
 </center>
 ]
 
@@ -444,7 +444,9 @@ zxcvnm,./
 
 .cols3[
 ## .center[Shift layer]
+
 <center>
+<p style="font-size:40px;">
 !@#$%^&*()
 <br>
 QWERTYUIOP
@@ -452,6 +454,7 @@ QWERTYUIOP
 ASDFGHJKL"
 <br>
 ZXCVBNM<>?
+</p>
 </center>
 ]
 
@@ -540,7 +543,7 @@ Auto-hot-key, and on Mac you can use Karabiner Elements.
 background-color: #fff
 class: center
 
-# Caps Lock Layer
+# Example: **Caps Lock Layer**
 
 <center>
 <img src="images/keyboard_remap.png" width=1100>
@@ -583,16 +586,16 @@ needing to leave the home row position.
 class: inverse, middle, center
 
 .leftcol[
-# Efficient typing
+# Better typing
 <center>
 <img src="images/typing.png" width=600>
 </center>
 ]
 
 .rightcol[
-# .green[Ergonomic keyboards]
+# .green[Better keyboards]
 <center>
-<img src="images/hardware.png" width=550>
+<img src="images/ergodox.png" width=550>
 </center>
 ]
 
@@ -608,35 +611,103 @@ considering the hardware you use.
 
 ---
 
+background-color: #fff
 class: center
 
 # Use a split keyboard
 
-(inexpensive first)
+<center>
+<img src="images/ergo_split_basic.jpg" width=650>
+</center>
+
+---
+
+background-color: #fff
+class: center
+
+# Eliminate **Ulnar Deviation**
+
+<center>
+<img src="images/drake_ergo_ulnar.png" width=500>
+</center>
+
+---
+
+background-color: #fff
+class: center
+
+# Eliminate **Forearm Pronation**
+
+<center>
+<img src="images/drake_ergo_pronation.png" width=500>
+</center>
+
+---
+
+background-color: #fff
+class: center, middle
+
+# Your keyboard as a medical device
+
+<br>
+
+.cols3[
+<center>
+<img src="images/kinesis_freestyle2.jpg" width=300>
+<br>
+KINESIS Freestyle 2<br><b>$89.00</b>
+</center>
+]
+
+.cols3[
+<center>
+<img src="images/logitech.jpg" width=280>
+<br>
+Logitech - ERGO K860<br><b>$129.00</b>
+</center>
+]
+
+.cols3[
+<center>
+<img src="images/glasses.jpg" width=350>
+Average cost of glasses<br><b>$242.00</b>
+</center>
+]
 
 ---
 
 class: center
 
-# Use a split keyboard _that has thumb keys_
+# Use a split keyboard **_that has thumb keys_**
+
+<center>
+<img src="images/ergodox.png" width=700>
+<br>
+Ergodox EZ (~$350.00)
+</center>
 
 ---
 
 class: center
 
-# Use a split keyboard _that is programmable_
+# Build Your Own Keyboard for Less!
+
+<center>
+<img src="images/iris.png" width=720>
+<br>
+Iris (~$250.00), Powered by <a href="https://qmk.fm/">QMK Firmware</a>
+</center>
 
 ---
 
+background-color: #fff
 class: center
 
-# Use a timer
+# Use a split keyboard **_that is programmable_**
 
-???
-
-While I'm mostly going to talk about which keyboard you use,
-
-I want to start by saying that 
+<center>
+<img src="images/ergodox_layout.png" width=670>
+</center>
 
 ---
 
@@ -646,7 +717,9 @@ class: inverse
 
 # .center[.font150[Thanks!]]
 
-### Slides: https://jhelvy.github.io/2021-useR-healthy-hands
+<br>
+
+### .center[Slides here: https://jhelvy.github.io/2021-useR-healthy-hands]
 
 .footer-large[
 .right[
