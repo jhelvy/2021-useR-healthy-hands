@@ -17,6 +17,11 @@
     <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
     <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
     <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <script src="libs/js-cookie/js.cookie.js"></script>
+    <script src="libs/peerjs/peerjs.min.js"></script>
+    <script src="libs/tiny.toast/toast.min.js"></script>
+    <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
     <script src="libs/freezeframe/freezeframe.min.js"></script>
     <script src="libs/xaringanExtra-freezeframe/freezeframe-init.js"></script>
     <script id="xaringanExtra-freezeframe-options" type="application/json">{"selector":"img[src$=\"gif\"]","trigger":"click","overlay":false,"responsive":false,"warnings":true}</script>
@@ -77,11 +82,9 @@ class: inverse, middle
 
 ???
 
-Hi everyone, my name is John Paul Helveston 
+Hi everyone, my name is John Paul Helveston and I want to talk
 
-and I want to talk about solutions to keep our hands 
-
-happy and healthy
+about solutions to keep our hands happy and healthy
 
 ---
 
@@ -96,26 +99,15 @@ background-color: #fff
 
 ???
 
-If you're a regular R user like me, chances are you
+Last year I typed 7.5 million key strokes, and if you're a
 
-rack up some serious mileage on your keyboard.
+regular R user like me, chances are you too are racking up
 
-I myself typed 7.5 million key strokes over the past year.
+some serious mileage on your keyboard, which can lead to pain
 
----
+and serious injury. So today I want to talk about some tools
 
-background-image: url("images/hands.jpg")
-background-size: contain
-
-???
-
-That level of wear and tear can cause pain and serious
-
-injuries. So my talk today is a quick overview
-
-of some tools and suggestions to take better care
-
-of your hands while typing.
+and suggestions to take better care of your hands while typing.
 
 ---
 
@@ -134,15 +126,13 @@ background-color: #fff
 
 My first suggestion is simply to practice your typing.
 
-I found that with just a little bit of consistent 
+I thought I had pretty good typing skills, but I found I was
 
-practice on key-br-dot-com, I increased both my
+able to increase my speed and accuracy by about 20% with just
 
-typing speed and accuracy by about 20% in a couple months. 
+two months of daily practice on on key-br-dot-com. So, take some
 
-Most coders can benefit from spending a little time 
-
-becoming a better typist.
+time to work on your typing, most people can benefit from it.
 
 ---
 
@@ -165,13 +155,11 @@ class: center
 
 ???
 
-My next suggestion is to master keyboard shortcuts. 
+My next suggestion is to master your keyboard shortcuts.
 
-RStudio is packed with excellent shortcuts, like
+RStudio is packed with excellent shortcuts, like "alt" + "dash"
 
-"alt" + "dash" to create an assignment operator, 
-
-or command-shift-M to make a pipe.
+to create an assignment operator, or command-shift-M to make a pipe.
 
 ---
 
@@ -193,11 +181,9 @@ class: center
 
 ???
 
-But there are many more than can save you 
+But there are many more that can make you a more efficient coder.
 
-loads of typing. For example, if you want to 
-
-align a bunch of messy text, just select it 
+For example, if you want to align a bunch of messy text, just select it
 
 and type control + I.
 
@@ -221,11 +207,11 @@ class: center
 
 ???
 
-Or generate multiple cursors by holding the 
+One of my favorites is to generate multiple cursors by holding the
 
-Alt key and selecting some lines. This is particularly 
+"alt" key and selecting some lines. This is particularly helpful for
 
-helpful for editing elements in a vector.
+editing elements in a vector.
 
 ---
 
@@ -255,27 +241,21 @@ See my post on espanso at &lt;a href="https://www.jhelvy.com/blog"&gt;https://ww
 
 ???
 
-You can also create your own customized shortcuts
+You can also create your own shortcuts by using a text expander,
 
-by using a text expander, which are programs that 
+which are programs that convert keywords into text snippets.
 
-convert keywords into text snippets. In the example
+In the example on the left, I'm using some custom expansions to
 
-on the left, I'm using some custom keywords to quickly write 
+write some ggplot code for a scatterplot. And on the right, I'm
 
-some ggplot code for a scatterplot. And on the right, 
+using a single keyword to generate a code chunk that I use in most
 
-I'm using a single keyword to generate a typical setup 
+of my RMarkdown files. My favorite expander is an open source one
 
-code chunk I use in most of my RMarkdown files.
+called espanso, if you want to learn more at it, you can check out
 
-My favorite expander is an open source one
-
-called espanso, if you want to learn more at it, 
-
-I wrote a whole blog post about how I use it
-
-on my website at jhelvy.com.
+my blog post about it on my website at jhelvy.com.
 
 ---
 
@@ -324,15 +304,11 @@ ZXCVBNM&lt;&gt;?
 
 ???
 
-Another tip is to use custom keyboard layers.
+Another tip is to use custom keyboard layers. Every keyboard has
 
-Every keyboard has at least two layers: the base
+at least two layers: the base layer of numbers and lower case letters,
 
-layer of numbers and lower case letters, and 
-
-another layer of symbols and upper case letters 
-
-when you hold down shift. 
+and another layer of symbols and upper case letters when you hold "shift".
 
 ---
 
@@ -345,11 +321,9 @@ class: middle
 
 ???
 
-Unfortunately, many of the most useful keys for coding,
+Unfortunately, many of the most useful keys for coding, like our navigation
 
-like our navigation arrows, require us to move our hands
-
-away from the home row position. 
+arrows, require us to move our hands away from the home row position.
 
 ---
 
@@ -362,9 +336,9 @@ class: middle
 
 ???
 
-A nice solution is to use a custom layer to move 
+A nice solution is to use a custom layer to move these keys back
 
-these keys back under our home row position.
+to a more convenient location.
 
 ---
 
@@ -379,15 +353,11 @@ class: center
 
 ???
 
-For example, on my keyboard I've re-mapped my 
+For example, on my keyboard, I re-mapped my caps lock key to
 
-caps lock key to trigger a new layer that
+trigger a new layer that has the navigation arrows and forward and back
 
-has navigation keys and forward and back delete 
-
-under my right hand, and cut, copy, paste 
-
-under my left
+delete under my right hand, and cut, copy, paste under my left hand.
 
 ---
 
@@ -403,11 +373,9 @@ class: middle
 
 ???
 
-This enables me quickly navigate around in
+As you can see in this demo, this enables me quickly move the cursor around
 
-RStudio and manipulate code without ever 
-
-needing to leave the home row position.
+and manipulate code in RStudio without ever needing to leave the home row.
 
 ---
 
@@ -435,11 +403,11 @@ class: center, middle
 
 ???
 
-There are lots of programs that support this kind of 
+I implemented this using a program called Karabiner Elements, which is
 
-customization. I use a program called Karabiner Elements 
+for mac only, but on Windows most people use a similar program called
 
-on a mac, and on Windows most people use Auto-hot-key.
+Auto-hot-key.
 
 ---
 
@@ -454,16 +422,16 @@ class: center
 
 ???
 
-In addition to all these software tools, 
+In addition to all these software tools, I highly recommend using
 
-I highly recommend using some kind of a split keyboard.
+some kind of a split keyboard.
 
 ---
 
 background-color: #fff
 class: center
 
-# Eliminate **Ulnar Deviation**
+# Reduce **Ulnar Deviation**
 
 &lt;center&gt;
 &lt;img src="images/drake_ergo_ulnar.png" width=500&gt;
@@ -471,18 +439,16 @@ class: center
 
 ???
 
-Split keyboards fix a lot of common ergonomic problems 
+Split keyboards fix a lot of common ergonomic problems compared to a standard
 
-from using a standard keyboard, like eliminating 
-
-ulnar deviation from twisting your wrists outward.
+keyboard, like reducing ulnar deviation from twisting your wrists outward.
 
 ---
 
 background-color: #fff
 class: center
 
-# Eliminate **Forearm Pronation**
+# Reduce **Forearm Pronation**
 
 &lt;center&gt;
 &lt;img src="images/drake_ergo_pronation.png" width=500&gt;
@@ -492,7 +458,7 @@ class: center
 
 And most split keyboards also add a small tenting angle 
 
-to eliminate forearm pronation 
+to reduce forearm pronation.
 
 ---
 
@@ -528,23 +494,19 @@ Average cost of glasses&lt;br&gt;&lt;b&gt;$242.00&lt;/b&gt;
 
 ???
 
-One of the downsides to split keyboards is they 
+Now one of the downsides to split keyboards is that they can be more
 
-can be more expensive, though there are plenty of great 
+expensive, though there are plenty of great options for around $100.
 
-options for under $100. But I encourage to consider
+But I encourage to consider your keyboard as a medical device, like a
 
-your keyboard as a medical device as much as it is 
+pair of glasses, which can easily cost over $100. Without glasses,
 
-a tool for your job. Most people who need glasses
+I couldn't read my own code, but without a keyboard I couldn't type it.
 
-spend well over $100 on a decent pair, so 
+Investing in a good keyboard is an investment in the health of your hands,
 
-why would you treat your hands any differently?
-
-A good keyboard is just as important for your hand,
-
-wrist, and shoulder health.
+wrists, and shoulders.
 
 ---
 
@@ -560,15 +522,11 @@ Ergodox EZ (~$350.00)
 
 ???
 
-If you really want to max out the benefits of a 
+To really max out the benefits of a split keyboard, consider one that
 
-split keyboard, consider one that has dedicated 
+has dedicated thumb keys, like the Ergodox. Your thumbs are really
 
-thumb keys, like the Ergodox. Your thumbs are really 
-
-strong, and they're useful for way more things than
-
-hitting a space bar. 
+strong, and they're useful for way more things than hitting a space bar.
 
 ---
 
@@ -584,17 +542,15 @@ Iris (~$200.00), Powered by &lt;a href="https://qmk.fm/"&gt;QMK Firmware&lt;/a&g
 
 ???
 
-The Ergodox in particular is rather expensive, 
+The Ergodox in particular is rather expensive, but if you're feeling ambitious
 
-so if you're feeling ambitious you could build 
+you can build your own for a lot less. There's actually a pretty big community
 
-your own for a lot less. There's actually a pretty 
+of keyboard hobbiest, and building your own keyboard these days is actually
 
-big community of keyboard hobbiest, and building 
+rather straightforward. Keyboards like the Iris shown here can be snapped
 
-your own keyboard these days is actually rather
-
-straightforward.
+together like a set of legos.
 
 ---
 
@@ -609,31 +565,32 @@ class: center
 
 ???
 
-Finally, if you are going to invest in a good,
+Finally, if you are going to invest in a good keyboard, get one that is fully
 
-keyboard, get one that is fully programmable. 
+programmable. This enables you to implement many of the solutions I mentioned,
 
-This can enable you to implement many of the 
-
-solutions I mentioned, like custom layers, 
-
-directly into the keyboard itself. 
+like custom layers, directly into the keyboard itself.
 
 ---
 
 class: inverse
 
-&lt;br&gt;
+.leftcol75[
+My Iris Keyboard:&lt;img src="images/my_iris.jpg" width=400&gt;
 
+### Slides:&lt;br&gt;https://jhelvy.github.io/2021-useR-healthy-hands
+
+### My Karabiner Elements Settings:&lt;br&gt;https://github.com/jhelvy/jkeyboard
+
+### My Iris Keyboard:&lt;br&gt;https://github.com/jhelvy/iris-rev2
+]
+
+.rightcol25[.right[
 # .center[.font150[Thanks!]]
 
 # .center[❤️ 😄 🙌]
-
-### .center[Slides: https://jhelvy.github.io/2021-useR-healthy-hands]
-
-.footer-large[
-.right[
-@johnhelveston &lt;svg style="height:0.8em;top:.04em;position:relative;fill:white;" viewBox="0 0 512 512"&gt;&lt;path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/&gt;&lt;/svg&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+@JohnHelveston &lt;svg style="height:0.8em;top:.04em;position:relative;fill:white;" viewBox="0 0 512 512"&gt;&lt;path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/&gt;&lt;/svg&gt;&lt;br&gt;
 @jhelvy &lt;svg style="height:0.8em;top:.04em;position:relative;fill:white;" viewBox="0 0 496 512"&gt;&lt;path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/&gt;&lt;/svg&gt;&lt;br&gt;
 @jhelvy &lt;svg style="height:0.8em;top:.04em;position:relative;fill:white;" viewBox="0 0 576 512"&gt;&lt;path d="M385.2 167.6c6.4 0 12.6.3 18.8 1.1C387.4 90.3 303.3 32 207.7 32 100.5 32 13 104.8 13 197.4c0 53.4 29.3 97.5 77.9 131.6l-19.3 58.6 68-34.1c24.4 4.8 43.8 9.7 68.2 9.7 6.2 0 12.1-.3 18.3-.8-4-12.9-6.2-26.6-6.2-40.8-.1-84.9 72.9-154 165.3-154zm-104.5-52.9c14.5 0 24.2 9.7 24.2 24.4 0 14.5-9.7 24.2-24.2 24.2-14.8 0-29.3-9.7-29.3-24.2.1-14.7 14.6-24.4 29.3-24.4zm-136.4 48.6c-14.5 0-29.3-9.7-29.3-24.2 0-14.8 14.8-24.4 29.3-24.4 14.8 0 24.4 9.7 24.4 24.4 0 14.6-9.6 24.2-24.4 24.2zM563 319.4c0-77.9-77.9-141.3-165.4-141.3-92.7 0-165.4 63.4-165.4 141.3S305 460.7 397.6 460.7c19.3 0 38.9-5.1 58.6-9.9l53.4 29.3-14.8-48.6C534 402.1 563 363.2 563 319.4zm-219.1-24.5c-9.7 0-19.3-9.7-19.3-19.6 0-9.7 9.7-19.3 19.3-19.3 14.8 0 24.4 9.7 24.4 19.3 0 10-9.7 19.6-24.4 19.6zm107.1 0c-9.7 0-19.3-9.7-19.3-19.6 0-9.7 9.7-19.3 19.3-19.3 14.5 0 24.4 9.7 24.4 19.3.1 10-9.9 19.6-24.4 19.6z"/&gt;&lt;/svg&gt;&lt;br&gt;
 jhelvy.com &lt;svg style="height:0.8em;top:.04em;position:relative;fill:white;" viewBox="0 0 512 512"&gt;&lt;path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/&gt;&lt;/svg&gt;&lt;br&gt;
@@ -642,11 +599,13 @@ jph@gwu.edu &lt;svg style="height:0.8em;top:.04em;position:relative;fill:white;"
 
 ???
 
-Okay, that's all I have, thanks for listening
+Okay, that's all I have. Thanks for listening and I look forward 
 
-and I look forward to any comments and questions 
+to any comments or questions you might have. If you want to learn 
 
-you might have!
+more about anything I mentioned, here are some links, and feel free
+
+to reach out to me directly on Twitter or by email. 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
