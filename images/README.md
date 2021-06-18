@@ -6,6 +6,7 @@
 - [drake_ergo_pronation.png]: Custom edit from [here](https://kinesis-ergo.com/solutions/keyboard-risk-factors/) and [here](https://imgflip.com/memegenerator/Drake-Hotline-Bling)
 - [ergodox.png](https://ergodox-ez.com/pages/ergodox-ez-glow)
 - [ergodox_layout.png](https://www.rousette.org.uk/archives/ergodox-ez-keyboard/)
+- [ergo_split_basic.jpg](https://kinesis-ergo.com/split-keyboards/)
 - [espanso.svg](https://espanso.org/)
 - ggplot.gif: self
 - [glasses.jpg](https://commons.wikimedia.org/wiki/File:Glasses_black.jpg)
