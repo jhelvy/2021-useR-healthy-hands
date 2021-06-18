@@ -6,30 +6,19 @@
 - [drake_ergo_pronation.png]: Custom edit from [here](https://kinesis-ergo.com/solutions/keyboard-risk-factors/) and [here](https://imgflip.com/memegenerator/Drake-Hotline-Bling)
 - [ergodox.png](https://ergodox-ez.com/pages/ergodox-ez-glow)
 - [ergodox_layout.png](https://www.rousette.org.uk/archives/ergodox-ez-keyboard/)
-- [ergo_forearm_pronation.jpg](https://kinesis-ergo.com/solutions/keyboard-risk-factors/)
-- [ergo_splay.jpg](https://kinesis-ergo.com/solutions/keyboard-risk-factors/)
-- [ergo_split.jpg](https://kinesis-ergo.com/solutions/keyboard-risk-factors/)
-- [ergo_split_basic.jpg](https://kinesis-ergo.com/split-keyboards/)
-- [ergo_tent.jpg](https://kinesis-ergo.com/solutions/keyboard-risk-factors/)
-- [ergo_ulnar_deviation.jpg](https://kinesis-ergo.com/solutions/keyboard-risk-factors/)
 - [espanso.svg](https://espanso.org/)
 - ggplot.gif: self
 - [glasses.jpg](https://commons.wikimedia.org/wiki/File:Glasses_black.jpg)
-- [hands.jpg](https://www.neurosurg.org/articles/how-can-you-avoid-wrist-pain-from-constant-typing)
 - [iris.png](https://medium.com/@keebio/lewis-ridden-and-the-story-behind-the-iris-7a70b03cfb80)
 - [kbe.png](https://karabiner-elements.pqrs.org/images/logo.png)
-- [keyboard.jpg](https://www.amazon.com/Datacal-English-Computer-Keyboard-CD1149/dp/B00DGHDTLG)
-- keyboard_nav.png: custom edit
-- keyboard_nav_layer.png: custom edit
+- keyboard_nav.png: custom edit from [here](https://www.amazon.com/Datacal-English-Computer-Keyboard-CD1149/dp/B00DGHDTLG)
+- keyboard_nav_layer.png: custom edit from [here](https://www.amazon.com/Datacal-English-Computer-Keyboard-CD1149/dp/B00DGHDTLG)
 - keyboard_nav_demo.mp4: self
-- keyboard_remap.png: custom edit
+- keyboard_remap.png: custom edit from [here](https://www.amazon.com/Datacal-English-Computer-Keyboard-CD1149/dp/B00DGHDTLG)
 - [kinesis_freestyle2.jpg](https://www.amazon.com/Freestyle2-Ergonomic-Keyboard-Standard-Separation/dp/B00CMALD3E)
 - [logitech.jpg](https://www.bestbuy.com/site/logitech-ergo-k860-ergonomic-split-bluetooth-or-usb-keyboard-black/6395346.p?skuId=6395346)
 - [qwerty.png](https://commons.wikimedia.org/wiki/File:Finger_position_on_a_keyboard.png)
-- monthlyKeys.png: generated myself using ggplot2
-- navigation_layer.png: Custom edit
-- remap.png: Custom edit
+- monthlyKeys.png: self
 - rrsetup.gif: self
 - [shift_key.png](https://www.shutterstock.com/image-photo/computer-shift-key-finger-pressing-button-272983346)
-- [typing.png](https://www.typing.academy/app/source/public/images/intro/en/basic-position.png)
 - [user-logo-color.png](https://user2021.r-project.org//img/artwork/user-logo-color.png)
